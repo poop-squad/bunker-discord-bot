@@ -1,6 +1,4 @@
-const randomIntFromInterval = (min, max) => {
-	return Math.floor(Math.random() * (max - min + 1) + min);
-};
+const { randomIntFromInterval } = require('../utils/math-utils');
 
 const generateFeedBack = percentage => {
 	switch(true) {
