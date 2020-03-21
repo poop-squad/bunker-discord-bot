@@ -21,7 +21,7 @@ module.exports = {
 	guildOnly: true,
 	args: true,
 	cooldown: 5,
-	usage: '<first perseon> <second person',
+	usage: '<first person> <second person>',
 	description: 'Checks love compatibility between 2 people',
 	execute(message, args) {
 		const random = randomIntFromInterval(0, 100);
